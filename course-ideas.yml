@@ -1,0 +1,63 @@
+# Ideas for courses
+
+- name: 'Open source and open science: Motivation'
+  key: oss
+
+- name: Introduction to version control
+  key: vc1
+
+- name: Version control for collaborative workflows
+  key: vc2
+  requires: [vc1]
+  recommended: [oss]
+
+- name: Introduction to Python
+  key: python
+  recommended: [vc1]
+
+- name: The IPython Notebook
+  key: ipynb
+  requires: [python]
+
+- name: The scientific Python ecosystem and package management
+  key: scipy
+  requires: [ipynb]
+  recommended: [oss]
+
+- name: Array arithmetic
+  key: arrays
+  requires: [scipy]
+
+- name: Organizing and analyzing data
+  key: data
+  requires: [arrays, functional]
+  recommended: [data]
+
+- name: 'Object-oriented programming: Affordances for programming'
+  key: oop
+  requires: [ipynb]
+
+- name: Functional programming
+  key: functional
+  requires: [ipynb]
+
+- name: Introduction to LaTeX
+  key: latex
+  recommended: [vc2]
+
+- name: Automating experiments
+  key: experiments
+  requires: [python]
+  recommended: [oop]
+
+- name: Modeling in Python
+  key: modeling
+  requires: [data]
+
+- name: Creating figures
+  key: figures
+  requires: [scipy]
+
+- name: Interactive visualizations
+  key: vis
+  requires: [figures]
