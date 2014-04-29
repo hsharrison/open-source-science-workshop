@@ -13,11 +13,11 @@
 
 - name: Introduction to Python
   key: python
-  recommended: [vc1]
+  recommended: [vc1, oss]
 
 - name: The IPython Notebook
   key: ipynb
-  requires: [python]
+  requires: [python, style]
 
 - name: The scientific Python ecosystem and package management
   key: scipy
@@ -47,7 +47,7 @@
 
 - name: Automating experiments
   key: experiments
-  requires: [python]
+  requires: [vis]
   recommended: [oop]
 
 - name: Modeling in Python
@@ -61,3 +61,11 @@
 - name: Interactive visualizations
   key: vis
   requires: [figures]
+
+- name: Documenting and testing code
+  key: docs
+  requires: [style]
+
+- name: Code style
+  key: style
+  requires: [python]
