@@ -1,6 +1,8 @@
 Open-Source Science Workshop
 ===
-## Summer 2014
+*Summer 2014, University of Connecticut*
+
+[Please sign up here][sign-up].
 
 This workshop will teach computing skills that will increase your productivity as a scientist.
 Some inspiration is taken from the open-source software community toward the goals of open science and reproducible research.
@@ -91,3 +93,4 @@ Please [let me know][me] if you run into problems getting set up.
 [pandoc]: http://johnmacfarlane.net/pandoc/installing.html
 [msysgit]: http://msysgit.github.io/
 [sc-intro]: http://software-carpentry.org/v5/intro.html
+[sign-up]: https://docs.google.com/forms/d/1fyhLP5UHC3G9pvutxJl8BAusaSmo_wEWEuM2iGrP_8w/viewform?usp=send_form
