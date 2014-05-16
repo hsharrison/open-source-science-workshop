@@ -2,8 +2,6 @@ Open Source Science Workshop
 ===
 ## Summer 2014
 
-Instructor: [Henry Harrison][me]
-
 This workshop will teach computing skills that will increase your productivity as a scientist.
 Some inspiration is taken from the open-source software community toward the goals of open science and reproducible research.
 The core topics are:
@@ -13,10 +11,11 @@ The core topics are:
  - the Unix shell, and
  - general best practices.
 
+
 ## Motivation
 
-Most scientists these days must have a certain amount of computer literacy in order to collect and analyze data.
-We often learn how to do one specific thing at a time, when it comes up (e.g., how to do FFT in Matlab.)
+Us scientists need a certain amount of computer literacy in order to collect, analyze, and visualize our data.
+We often learn how to do one specific thing at a time, when it comes up (e.g., how to do FFT in Matlab).
 Because most of us are self-taught, we never learn general software-development principles, such as how to organize code for easy reuse.
 As a result, scientists often waste time due to duplicated effort.
 We continually run into problems that have already been solved by software developers.
@@ -29,16 +28,18 @@ In the face of a questionable finding, a replication can be attempted, but the a
 
 With programming skills, scientists can not only be more productive but also take on a more reliable workflow. If we learn from the open-source community, this can have the welcome side effects of making our workflows more visible, maintainable, and reproducible.
 
-Here are some of the things I hope that participants will be able to avoid in the future:
+The goal is for participants to be able to prevent these kinds of situations:
 
- - Embarrassment about sharing or publishing code.
- - Inability to understand code they wrote the previous semester.
+ - Inability to understand code written two months earlier.
  - Documents with filenames like `manuscript_revisions_v3_comments (2)`.
  - Inability to reproduce a result due to change in software or loss of the exact steps taken.
  - A programming workflow dependent on copy-paste, code templates, or commenting and uncommenting.
  - Reluctance to make a small analysis change because of how many steps will need to be re-done to recreate the manuscript.
 
  For more along these lines, and a preview of some specific points, see [Wilson et al. (2014), Best practices for scientific computing.][best]
+
+(After writing this I found [this][sc-intro] which makes the same points more eloquently.)
+
 
 ## Schedule of topics
 Each session will be three hours, including a break. The material will be hands-on whenever possible.
@@ -47,7 +48,7 @@ Each session will be three hours, including a break. The material will be hands-
  1. Python basics, built-in data structures.
  1. Iterators and generators, object-oriented programming.
  1. Functional programming, array programming.
- 1. The Scientific Python ecosystem.
+ 1. The scientific Python ecosystem.
  1. Data analysis.
  1. Defensive programming, development strategies.
  1. Figures and visualizations, automating experiments.
@@ -55,6 +56,7 @@ Each session will be three hours, including a break. The material will be hands-
  1. Overflow session.
 
  I am open to feedback on this list and may modify it as we go depending on everyone's priorities and interests.
+
 
 ## Setup
 
@@ -76,7 +78,7 @@ Ideally everyone will come prepared with everything already installed on our lap
  - Toward the end of the workshop, we will use [Pandoc][pandoc] for document generation.
    Also follow the instructions on that link for installing LaTeX on your platform.
 
-Please [contact me][me] if you run into problems getting set up.
+Please [let me know][me] if you run into problems getting set up.
 
 
 [best]: http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001745
@@ -88,3 +90,4 @@ Please [contact me][me] if you run into problems getting set up.
 [me]: mailto:henry.harrison@uconn.edu
 [pandoc]: http://johnmacfarlane.net/pandoc/installing.html
 [msysgit]: http://msysgit.github.io/
+[sc-intro]: http://software-carpentry.org/v5/intro.html
