@@ -11,7 +11,7 @@ Secondary topics will be
 
  - version control using Git and Mercurial,
  - the Unix shell, and
- - document generation using LaTeX.
+ - document generation using Markdown and LaTeX.
 
 
 ## Motivation
