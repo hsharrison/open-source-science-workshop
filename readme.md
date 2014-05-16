@@ -1,15 +1,15 @@
-Open Source Science Workshop
+Open-Source Science Workshop
 ===
 ## Summer 2014
 
 This workshop will teach computing skills that will increase your productivity as a scientist.
 Some inspiration is taken from the open-source software community toward the goals of open science and reproducible research.
-The core topics are:
+The core topics will be the Python programming languge and general best practices.
+Secondary topics will be
 
- - the Python programming language and its scientific ecosystem,
  - version control using Git and Mercurial,
  - the Unix shell, and
- - general best practices.
+ - document generation using LaTeX.
 
 
 ## Motivation
