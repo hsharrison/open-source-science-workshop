@@ -2,6 +2,12 @@ Open-Source Science Workshop
 ===
 *Summer 2014, University of Connecticut*
 
+---
+
+*Thanks to [software carpentry][sc] for ideas and general inspiration. I'm using their [bootcamps][sc-lessons] as a model.*
+
+---
+
 [Please sign up here][sign-up].
 
 This workshop will teach computing skills that will increase your productivity as a scientist.
@@ -94,3 +100,5 @@ Please [let me know][me] if you run into problems getting set up.
 [msysgit]: http://msysgit.github.io/
 [sc-intro]: http://software-carpentry.org/v5/intro.html
 [sign-up]: https://docs.google.com/forms/d/1fyhLP5UHC3G9pvutxJl8BAusaSmo_wEWEuM2iGrP_8w/viewform?usp=send_form
+[sc]: http://software-carpentry.org
+[sc-lessons]:http://software-carpentry.org/lessons.html
