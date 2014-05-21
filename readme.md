@@ -8,8 +8,6 @@ Open-Source Science Workshop
 
 ---
 
-[Please sign up here][sign-up].
-
 This workshop will teach computing skills that will increase your productivity as a scientist.
 Some inspiration is taken from the open-source software community toward the goals of open science and reproducible research.
 The core topics will be the Python programming languge and general best practices.
