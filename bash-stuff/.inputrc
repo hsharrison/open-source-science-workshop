@@ -1,0 +1,20 @@
+set mark-symlinked-directories on
+set bell-style visible
+
+## Change history to use partial completion
+## arrow up
+"\e[A":history-search-backward
+## arrow down
+"\e[B":history-search-forward
+
+## Use ctrl + left/right to navigate by word
+## ctrl-left
+"\e[1;5D":backward-word
+## ctrl-right
+"\e[1;5C":forward-word
+
+## Change tab to cycle through matches
+## Tab
+TAB:menu-complete
+## Shit-tab
+"\e[Z":menu-complete-backward

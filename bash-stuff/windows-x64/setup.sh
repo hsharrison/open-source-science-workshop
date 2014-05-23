@@ -3,3 +3,5 @@
 echo 'Installing executables into ~/bin ...'
 mkdir -p ~/bin
 cp bin/* ~/bin
+
+cat source-aliases >> ~/.bashrc
