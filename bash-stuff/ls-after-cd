@@ -1,0 +1,12 @@
+# Automatically call ls after cd
+cd() {
+  if [ "$1" = "$WORKON_HOME" ]; then
+    builtin cd "$*"
+  else
+    if [ $# -eq 0 ]; then
+      builtin cd && ls -BF
+    else
+      builtin cd "$*" && ls -BF
+    fi
+  fi
+}

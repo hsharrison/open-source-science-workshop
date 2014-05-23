@@ -1,0 +1,7 @@
+# list-which
+lw() {
+	target=`which "$*"`
+	if [ "$target" ]; then
+		ls -lh "$target"
+	fi
+}
