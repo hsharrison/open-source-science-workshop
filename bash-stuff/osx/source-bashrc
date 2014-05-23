@@ -1,0 +1,2 @@
+# Make sure .bashrc is always loaded
+[[ -s ~/.bashrc ]] && source ~/.bashrc
