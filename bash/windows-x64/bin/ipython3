@@ -1,0 +1,3 @@
+#!/bin/bash
+
+$HOME/Anaconda/envs/python3/python $HOME/Anaconda/envs/python3/Scripts/ipython-script.py "$@"
