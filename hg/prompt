@@ -1,0 +1,21 @@
+# To setup hg-prompt, run
+# hg clone https://bitbucket.org/sjl/hg-prompt
+# Then add the following to ~/.hgrc under [Extensions]
+# prompt = /path/to/hg-prompt/prompt.py
+# and finally cat this file to ~/.bashrc
+# cat prompt >> ~/.bashrc
+
+# http://stevelosh.com/blog/2009/03/candy-colored-terminal/
+# http://stevelosh.com/blog/2009/03/mercurial-bash-prompts/
+
+D=$'\e[0m'
+PINK=$'\e[35m'
+GREEN=$'\e[32m'
+ORANGE=$'\e[40m'
+BLUE=$'\e[34m'
+
+hg_ps1() {
+    hg prompt "{${D} on ${PINK}{branch}}{${D} at ${ORANGE}{bookmark}}{${GREEN}{status}}" 2> /dev/null
+}
+
+export PS1="\n${BLUE}${VIRTUAL_ENV:+(}\$(basename '$VIRTUAL_ENV')${VIRTUAL_ENV:+") "}\e[0m"'${PINK}\u ${D}at ${ORANGE}\h ${D}in ${GREEN}\w$(hg_ps1)${D}\n$ '
