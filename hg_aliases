@@ -1,0 +1,15 @@
+[alias]
+latest = log --limit 5
+describe = log -r . --template '{latesttag}-{latesttagdistance}-{node|short}\n'
+purge = !$HG status --no-status --unknown -0 | xargs -0 rm
+slog = log --style=$HOME/projects/external-projects/mercurial-cli-templates/map-cmdline.slog
+nlog = log --style=$HOME/projects/external-projects/mercurial-cli-templates/map-cmdline.nlog
+sglog = glog --style=$HOME/projects/external-projects/mercurial-cli-templates/map-cmdline.sglog
+show = log --color=always -pr
+cm = commit --message
+up = update --check
+ls = manifest
+. = summary
+: = status
+? = summary --remote
+bdm = bookmark -r default master
