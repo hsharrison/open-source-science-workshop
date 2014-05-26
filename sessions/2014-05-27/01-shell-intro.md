@@ -11,7 +11,7 @@ CLIs run what's called a read-evaluate-print loop (REPL).
 The user types a command and presses enter, the computer reads it, executes it, and prints the resulting output.
 The fundamental units are text characters and lines of text, or commands.
 
-![A terminal](http://imgur.com/gI0fLFg)
+![A terminal](terminal.jpg)
 
 Eventually the printers were replaced by terminals, mindless hardware devices consisting of a keyboard and a screen.
 The idea was that a computer could have many terminals where a user could log in, run a series of commands, and log out.
