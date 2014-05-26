@@ -294,3 +294,4 @@ Here are all the commands I used with `wc` as I was testing this tutorial:
 We can also save our history to a file after a session, in case we want to come back to it later:
 
     $ history > history.txt
+

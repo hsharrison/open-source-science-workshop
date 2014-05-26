@@ -24,3 +24,4 @@ You will need to enter a password.
 On Windows if you ever get a "permision denied" error, the solution is not to run `sudo` but to re-launch your shell with administrator privileges.
 
 Also, Ctrl-C kills the current foreground process.
+

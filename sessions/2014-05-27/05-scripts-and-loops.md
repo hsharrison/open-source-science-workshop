@@ -125,3 +125,4 @@ We don't actually have a command called `plot` at this point, so let's use `echo
 This is the same as above, except we've added `"$dir"/` in order to tell the `plot` command specifically which file we want, in which directory.
 If we just took out the `echo` this would actually run the comands instead of printing them.
 And if this was actually how we generated our plots, we'd want to save those four lines into a script, so that we could easily recreate them if our data changed.
+

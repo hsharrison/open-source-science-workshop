@@ -296,3 +296,4 @@ That does it.
 In Bash, there is no recycle bin; `rm` is forever.
 `rm -r` is dangerous because one typo and you can delete a bunch of work.
 It's better to use `rmdir` and delete the files first.
+
