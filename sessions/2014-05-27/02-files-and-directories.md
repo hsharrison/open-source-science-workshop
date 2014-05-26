@@ -111,6 +111,8 @@ This lets us tweak the command and try out different variations of it.
 Also, pressing tab will try to complete what you're typing, usually with contents of the current directory but sometimes with command names, depending on context.
 Finally note that you can run `ls --help` to get a description of all the options you can use with `ls`.
 This `--help` flag is a common Unix convention.
+You can also use the `man` command, short for "manual", as in `man ls`.
+Note that this won't work on Windows, I recommend just searching Google as all the man pages are online.
 
 The command `cd` stands for "change directory".
 
