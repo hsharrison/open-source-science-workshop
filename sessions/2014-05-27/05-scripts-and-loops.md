@@ -37,7 +37,7 @@ OK, to test it:
 It works!
 The reason we need the `../` is because `longest-file` is in the parent directory.
 If we want to be able to use it wherever we are, we can put it in a folder on the path.
-We've already put some executables in `~/bin`, let's put this there:
+We've already put some executables in `~/bin`, let's put this there too:
 
     $ cp ../longest-file ~/bin
 
@@ -91,7 +91,7 @@ We could get rid of the `echo`:
     t03.txt
     t03.txt
 
-Another option is to use backticks, `\``.
+Another option is to use backticks, \`.
 Anything inside backticks gets executed separately before evaluating the whole line.
 So the above is the same as
 

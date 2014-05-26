@@ -152,7 +152,7 @@ We can use the `sort` command to sort the file contents:
         117 s01/t04.txt
        1034 total
 
-Note that by default the output goes to the screen, if we want to change the file we need to use a redirect:
+Note that by default the output goes to the screen, if we want to output to a file we need to use a redirect:
 
     $ sort s01/lengths.txt > s01/sorted-lengths.txt
 
