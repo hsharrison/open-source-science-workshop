@@ -1,5 +1,5 @@
-Lesson 1: The Unix Shell
-=========================
+The Unix Shell
+===
 
 # What is a shell?
 Nowadays, most of us interact with our computers using mice, pointers, windows, icons, etc.
@@ -59,44 +59,6 @@ In particular, if you're working remotely you may only have access to the shell.
 Instead of opening up a program and clicking "Run", the process will needed to be automated.
 If you ever plan to use services like the [the UConn Engineering Department's computing cluster][hpc] you will need to be comfortable in the command line.
 
-## Files and directories
-
- - `whoami`
- - `pwd`
- - `ls`
- - `cd`
- - `man`
- - `mkdir`
- - `nano`
- - `rm`
- - `rmdir`
- - `mv`
- - `cp`
-
-## Processes
-
- - `ps`
- - `kill`
- - `sudo`
-
-## Pipes and redirection
-
- - `sort`
- - `head`
- - `tail`
- - `wc`
- - `cut`
- - `uniq`
- - `cat`
- - `echo`
- - `grep`
- - `find`
-
-## Loops
-
- - `history`
- - `bash`
- 
 
 [ConEmu]: https://code.google.com/p/conemu-maximus5/
 [hpc]: http://becat.uconn.edu/hpc/

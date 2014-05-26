@@ -1,5 +1,5 @@
 Files and directories
-###
+===
 
 ## First look at the shell
 
@@ -114,6 +114,8 @@ This `--help` flag is a common Unix convention.
 You can also use the `man` command, short for "manual", as in `man ls`.
 Note that this won't work on Windows, I recommend just searching Google as all the man pages are online.
 
+Two more useful shortcuts are Ctrl-A and Ctrl-E which go the beginnind and end of the line, respectively.
+
 The command `cd` stands for "change directory".
 
     $ cd anaconda
@@ -161,6 +163,8 @@ Let's look in the `bash` directory.
     $ cd bash
     $ ls
     functions  osx  windows-x64
+
+## Setup
 
 The first thing we'll do is runs some setup.
 If you're on a Mac, run `bash osx/setup.sh`; if you're on Windows, `bash windows-x64/setup.sh`.
@@ -220,3 +224,75 @@ I don't have anything for you to download right now, but see what happens when y
     Try `wget --help' for more options.
 
 If you got that message, it means the setup script worked.
+
+## Some more stuff
+
+Let's try a few more commands.
+Go back to the home directory.
+
+    $ cd ~
+
+Now let's make a dummy directory to play around in.
+
+    $ mkdir temp
+    $ cd temp
+
+Let's try a text editor.
+The most basic is `nano`.
+
+    $ nano test.txt
+
+Type some things and press Ctrl-X to quit.
+You may also have a better text editor.
+If you installed Sublime Text, you can use the `subl` command to open it up.
+
+    $ subl test.txt
+
+Note that now we can't do anything else in the terminal.
+So quit Sublime, then try this instead:
+
+    $ subl test.txt &
+
+The `&` tells bash to run the program in the background, allowing you to keep working in the terminal.
+This is useful for launching external programs like Sublime.
+We could later run `fg` to get the program back to the foreground.
+You can background it with Ctrl-Z, but this doesn't work on Windows so you'd have to quit the program entirely and run it again.
+Also note that once you have a tab open in Sublime, you can leave off the `&` when opening additional files as the process is already backgrounded.
+
+    $ touch blank.txt
+    $ subl blank.txt
+
+The command `touch` updates the "last modified" date on a file.
+If the file doesn't exist, it makes a blank file.
+
+We can delete files with `rm`:
+
+    $ rm blank.txt
+
+And rename them with `mv`:
+
+    $ mv test.txt blah.txt
+
+`mv` may be less intuitive than "rename" but you can think of renaming files as moving them.
+Now that we've messed with some files, let's get rid of the directory.
+
+    $ cd ..
+    $ rm temp
+    rm: `temp' is a directory
+
+Well, `rm` doesn't do directories.
+Instea we use `rmdir`.
+
+    $ rmdir temp
+    rmdir: `temp': Directory not empty
+
+`rmdir` a safety feature that it won't delete non-empty directories.
+We would first have to delete `temp/test.txt`.
+But if we're feeling dangerous we can also use `rm` with the `-r` flag:
+
+    $ rm -r temp
+
+That does it.
+In Bash, there is no recycle bin; `rm` is forever.
+`rm -r` is dangerous because one typo and you can delete a bunch of work.
+It's better to use `rmdir` and delete the files first.
