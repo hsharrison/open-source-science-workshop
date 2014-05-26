@@ -11,7 +11,6 @@ Here we have a Python script that I used to generate the data and five directori
 
     $ cd data
     $ ls s01
-    $ ls s01
     t01.txt  t02.txt  t03.txt  t04.txt  t05.txt  t06.txt  t07.txt  t08.txt  t09.txt  t10.txt
 
 Each directory contains ten text files.
