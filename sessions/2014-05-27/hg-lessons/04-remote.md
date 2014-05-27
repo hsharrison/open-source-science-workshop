@@ -69,3 +69,42 @@ These all look good, so I'll add them, commit, and push.
 
 In this case I already had six other commits that I hadn't pushed yet.
 Now, they are all available on the BitBucket website or to anyone else who pulls from it.
+
+
+# Collaboration exercise using BitBucket
+
+The websites BitBucket and GitHub added collaboration features on top of what you can already do with `git` and `hg`.
+These include issue trackers and wikis, but most importantly, forks and pull requests (PRs).
+We'll do an exercise to demonstrate these concepts.
+
+ 1. Browse to the [workshop repository](https://bitbucket.org/hharrison/open-source-science-workshop).
+ 1. Find the "Fork" action; fork the repository.
+    This creates your own personal remote clone of the repository.
+    You can do whatever you want with it.
+ 1. Clone your new repository to your laptop.
+ 1. Find the file `open-source-science-workshop/sessions/2014-05-27/participants.txt`, find the line with your name, and add whatever you want to it.
+    Add your last name, email address, or something completely random.
+    Don't change anything else except that line.
+    (If I forgot you, I apologize, add a line to the end of the file).
+ 1. Check `hg status` and/or `hg diff` to see the change you made.
+ 1. Commit
+ 1. Push your new changeset.
+ 1. Back on the BitBucket website, find the "Create a pull request" action.
+    It should available from the page of my repository, as well as your fork.
+    Give your PR at least a title and submit it.
+ 1. Once everyone has submitted a pull request I will show you what happens when I review them.
+
+Now you know how to contribute to an open-source project!
+When you collaborate, this is a good method to use for big coding projects.
+For something lik a manuscript, another option is to give your collaborators write access to your repository.
+Then they can push to it just like you can.
+
+
+# Aliases
+
+I have some useful aliases that I use with Mercurial.
+You can find them in `open-source-science-workshop/hg/aliases.txt`.
+I will go through them and explain them (if we have time).
+To use them, just run `cat aliases.txt >> ~/.hgrc`.
+`~/.hgrc` is a mercurial configuration file.
+
