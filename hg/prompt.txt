@@ -3,7 +3,7 @@
 # Then add the following to ~/.hgrc under [Extensions]
 # prompt = /path/to/hg-prompt/prompt.py
 # and finally cat this file to ~/.bashrc
-# cat prompt >> ~/.bashrc
+# cat prompt.txt >> ~/.bashrc
 
 # http://stevelosh.com/blog/2009/03/candy-colored-terminal/
 # http://stevelosh.com/blog/2009/03/mercurial-bash-prompts/
