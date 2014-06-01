@@ -44,6 +44,13 @@ Just add the following to your `~/.hgrc` under `[ui]`:
 That assumes, of course, that you want Sublime as your default editor and you've setup a shortcut or alias `subl` to get to it.
 
 
+# Default diff format
+I recommend adding the following to get the easiest-to-read diff format:
+
+    [diff]
+    git = True
+
+
 ## Aliases
 Under a section `[Aliases]` you can put, well, aliases.
 For example, if you have `latest = log --limit 5`, then running `hg latest` will give you a log of the last five commits.
