@@ -1,0 +1,3 @@
+syntax: glob
+*.orig
+*/.ipynb_checkpoints/*
